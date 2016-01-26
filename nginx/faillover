@@ -1,0 +1,5 @@
+server {
+	listen 5000;
+	root /var/www;
+	error_page 404 /index.html;
+}

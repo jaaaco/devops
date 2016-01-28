@@ -1,6 +1,6 @@
 apt-get update
 apt-get upgrade -y
-apt-get install nginx
+apt-get install -y nginx
 
 cp nginx.conf /etc/nginx.conf
 cp apache-forward /etc/nginx/sites-enabled/

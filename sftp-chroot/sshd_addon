@@ -1,0 +1,6 @@
+
+Match Group sftponly
+     ChrootDirectory /home/%u
+     X11Forwarding no
+     AllowTCPForwarding no
+     ForceCommand internal-sftp

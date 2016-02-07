@@ -1,0 +1,7 @@
+* add new user
+* add www-data to user's group
+* set /home to root:root 755
+* set /home/user to root:root 755
+* set add webroot dir to users home
+* set contents on home to user:user and min 640 (read by group)
+* restart nginx
